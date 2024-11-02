@@ -60,4 +60,20 @@ Este record se diseñó para obtener los datos de la API y darle una estructura 
 
 - **[Monedas](https://github.com/JDCH1206/CONV-MONEDA/blob/master/src/com/JDCH/conversorMoneda/modulos/Monedas.java)**: Este record define la estructura de los datos de tipo `Monedas`, que representan las tasas de cambio obtenidas de la API. Incluye atributos para cada moneda y sus tasas de conversión, permitiendo una fácil integración y manipulación dentro de la aplicación.
 
+## Pruebas 
 
+- Se realizan pruebas y se corre el codigo
+  
+![Imagen de entrada](https://github.com/JDCH1206/CONV-MONEDA/blob/master/Imagenes%20Prueba/Archivo%201.png) 
+
+![Imagen del menú](https://github.com/JDCH1206/CONV-MONEDA/blob/master/Imagenes%20Prueba/Archivos%202.png)
+
+![Prueba conversión](https://github.com/JDCH1206/CONV-MONEDA/blob/master/Imagenes%20Prueba/Archivo%203.png)
+
+![Prueba Conversión 2](https://github.com/JDCH1206/CONV-MONEDA/blob/master/Imagenes%20Prueba/Archivo%204.png)
+
+![Menú salida y creación de archivo](https://github.com/JDCH1206/CONV-MONEDA/blob/master/Imagenes%20Prueba/Archivo%205.png)
+
+![Asignación nombre archivo](https://github.com/JDCH1206/CONV-MONEDA/blob/master/Imagenes%20Prueba/Archivo%206.png)
+
+![Archivo resultante de las conversiones](https://github.com/JDCH1206/CONV-MONEDA/blob/master/Imagenes%20Prueba/Archivo%207.png)
