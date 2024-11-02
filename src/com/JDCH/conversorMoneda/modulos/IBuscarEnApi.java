@@ -2,6 +2,6 @@ package com.JDCH.conversorMoneda.modulos;
 
 import java.util.Map;
 
-public interface BuscarenApi {
+public interface IBuscarEnApi {
     Map <String, Double> buscarDatosApi (String moneda);
 }

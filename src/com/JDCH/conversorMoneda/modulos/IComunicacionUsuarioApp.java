@@ -1,6 +1,6 @@
 package com.JDCH.conversorMoneda.modulos;
 
-public interface ComunicacionUsuarioApp {
+public interface IComunicacionUsuarioApp {
     String leerLinea ();
     int leerEntero ();
     double leerDouble ();

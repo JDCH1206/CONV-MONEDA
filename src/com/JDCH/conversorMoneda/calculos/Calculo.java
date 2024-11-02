@@ -2,7 +2,7 @@ package com.JDCH.conversorMoneda.calculos;
 
 import java.util.Map;
 
-public class Calculo implements CalculosConversion{
+public class Calculo implements ICalculosConversion {
     @Override
     public double calculoConversion(String monedaDestino, Map<String, Double> tasa, double montoAconvertir) {
         Map<String, Double> tasasDeCambio = tasa;

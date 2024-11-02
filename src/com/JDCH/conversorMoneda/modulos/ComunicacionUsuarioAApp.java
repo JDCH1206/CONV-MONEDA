@@ -3,7 +3,7 @@ package com.JDCH.conversorMoneda.modulos;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class ComunicacionUsuarioAApp implements ComunicacionUsuarioApp{
+public class ComunicacionUsuarioAApp implements IComunicacionUsuarioApp {
 
     Scanner teclado = new Scanner(System.in);
 

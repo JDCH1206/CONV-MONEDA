@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class CrearEscribirArchivo implements CrearArchivo{
+public class CrearEscribirArchivo implements ICrearArchivo {
     @Override
     public void archivo(String file, ArrayList lista) throws IOException {
         FileWriter archivo = new FileWriter(file+".Json");

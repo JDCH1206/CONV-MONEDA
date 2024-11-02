@@ -4,7 +4,6 @@ import com.JDCH.conversorMoneda.calculos.Calculo;
 import com.JDCH.conversorMoneda.modulos.*;
 
 import java.io.IOException;
-import java.lang.invoke.SwitchPoint;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
@@ -171,7 +170,7 @@ public class Principal {
         ingreso.limpiarLinea();
         comunicacion.nombreArchivo();
         String nombreArchivo = ingreso.leerLinea();
-        CrearArchivo archivo = new CrearEscribirArchivo();
+        ICrearArchivo archivo = new CrearEscribirArchivo();
         archivo.archivo(nombreArchivo, datosConversiones);
 
     }

@@ -1,6 +1,6 @@
 package com.JDCH.conversorMoneda.modulos;
 
-public class ComunicacionAppAUsuario implements ComunicacionAppUsuario{
+public class ComunicacionAppAUsuario implements IComunicacionAppUsuario {
     String saludoInicio = """
             ¡Hola, estimado usuario! Bienvenido a nuestra aplicación 
             de conversión de monedas en tiempo real. Este aplicativo 

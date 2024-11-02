@@ -1,6 +1,6 @@
 package com.JDCH.conversorMoneda.modulos;
 
-public interface ComunicacionAppUsuario {
+public interface IComunicacionAppUsuario {
     void saludoInicial ();
     void montoAconvertir();
     void menuSeleccionConversionMoneda ();

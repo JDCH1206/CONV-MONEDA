@@ -90,7 +90,7 @@ public class PrincipalOptimizada {
                 monto = ingreso.leerDouble();
                 tasasDeCambio = solicitar.buscarDatosApi(monedaOrigen);
                 dato = calculo.calculoConversion(monedaDestino,tasasDeCambio,monto);
-                System.out.println(dato);
+                System.out.println(monto + " " + monedaOrigen + " convertido a " + monedaDestino + " es " + dato);
                 conversionesMoneda.add(dato);
                 Instant fin = Instant.now();
                 Duration duracion = Duration.between(inicio, fin);
@@ -114,7 +114,7 @@ public class PrincipalOptimizada {
         ingreso.limpiarLinea();
         comunicacion.nombreArchivo();
         String nombreArchivo = ingreso.leerLinea();
-        CrearArchivo archivo = new CrearEscribirArchivo();
+        ICrearArchivo archivo = new CrearEscribirArchivo();
         try {
             archivo.archivo(nombreArchivo, datosConversiones);
         } catch (IOException e) {
