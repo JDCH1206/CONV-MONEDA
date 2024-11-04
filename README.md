@@ -118,6 +118,8 @@ El funcionamiento del conversor fue verificado mediante diversas pruebas, cuyo p
    - Archivo JSON generado con el registro de todas las conversiones realizadas durante la sesión.  
    ![Archivo resultante de las conversiones](https://github.com/JDCH1206/CONV-MONEDA/blob/master/Imagenes%20Prueba/Archivo%207.png)
 
+[Ver video prueba](https://github.com/JDCH1206/CONV-MONEDA/issues/1#issue-2631600843)
+
 
 ## Uso e instalación
 
